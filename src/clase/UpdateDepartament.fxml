@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="120.0" prefWidth="255.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="clase.UpdateDepartamenteController">
+   <children>
+      <TextField id="tfDenumireDepartament" fx:id="tfDenumireDepartament" layoutX="14.0" layoutY="14.0" prefHeight="25.0" prefWidth="233.0" promptText="denumireDepartament" />
+      <TextField id="tfNumarAngajati" fx:id="tfNumarAngajati" layoutX="14.0" layoutY="39.0" prefHeight="25.0" prefWidth="233.0" promptText="numarAngajati" />
+      <Button id="btnUpdateDepartament" fx:id="btnUpdateDepartament" layoutX="99.0" layoutY="81.0" mnemonicParsing="false" onAction="#modifyDepartament" text="Modifica" />
+   </children>
+</AnchorPane>

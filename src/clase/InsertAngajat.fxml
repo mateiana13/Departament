@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="190.0" prefWidth="285.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="clase.InsertAngajatController">
+   <children>
+      <TextField id="tfNumeAngajat" fx:id="tfNumeAngajat" layoutX="18.0" layoutY="14.0" prefHeight="25.0" prefWidth="250.0" promptText="numeAngajat" />
+      <TextField id="tfPrenumeAngajat" fx:id="tfPrenumeAngajat" layoutX="18.0" layoutY="39.0" prefHeight="25.0" prefWidth="250.0" promptText="prenumeAngajat" />
+      <TextField id="tfSalariuAngajat" fx:id="tfSalariuAngajat" layoutX="18.0" layoutY="64.0" prefHeight="25.0" prefWidth="250.0" promptText="salariuAngajat" />
+      <TextField id="tfCnpAngajat" fx:id="tfCnpAngajat" layoutX="18.0" layoutY="89.0" prefHeight="25.0" prefWidth="250.0" promptText="cnpAngajat" />
+      <TextField id="tfFunctieAngajat" fx:id="tfFunctieAngajat" layoutX="18.0" layoutY="114.0" prefHeight="25.0" prefWidth="250.0" promptText="functieAngajat" />
+      <Button id="btnInsertAngajat" fx:id="btnInsertAngajat" layoutX="113.0" layoutY="151.0" mnemonicParsing="false" onAction="#insertAngajat" text="Insert" />
+   </children>
+</AnchorPane>

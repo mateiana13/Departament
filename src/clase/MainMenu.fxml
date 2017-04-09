@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="158.0" prefWidth="271.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="clase.MainMenuController">
+   <children>
+      <Button id="btnCreateDatabase" fx:id="btnCreateDatabase" layoutX="36.0" layoutY="17.0" mnemonicParsing="false" onAction="#createDatabase" prefHeight="25.0" prefWidth="199.0" text="Create Database" />
+      <Button id="btnInsertDepartament" fx:id="btnInserDepartament" layoutX="36.0" layoutY="42.0" mnemonicParsing="false" onAction="#insertDepartament" prefHeight="25.0" prefWidth="199.0" text="Insert Departament" />
+      <Button id="btnViewDepartamente" fx:id="btnViewDepartamente" layoutX="36.0" layoutY="67.0" mnemonicParsing="false" onAction="#viewDepartamente" prefHeight="25.0" prefWidth="199.0" text="View Departamente" />
+      <Button id="btnDeleteDatabase" fx:id="btnDeleteDatabase" layoutX="36.0" layoutY="92.0" mnemonicParsing="false" onAction="#deleteDatabase" prefHeight="25.0" prefWidth="199.0" text="Delete Database" />
+      <Button id="btnExit" fx:id="btnExit" layoutX="36.0" layoutY="117.0" mnemonicParsing="false" onAction="#exit" prefHeight="25.0" prefWidth="199.0" text="Exit" />
+   </children>
+</AnchorPane>

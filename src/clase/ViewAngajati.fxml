@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="268.0" prefWidth="481.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="clase.ViewAngajatiController">
+   <children>
+      <ListView id="lvAngajati" fx:id="lvAngajati" layoutX="14.0" layoutY="14.0" prefHeight="200.0" prefWidth="453.0" />
+      <Button id="btnDeleteAngajat" fx:id="bttDelteAngajat" layoutX="372.0" layoutY="227.0" mnemonicParsing="false" onAction="#deleteAngajat" text="Delete Angajat" />
+      <Button id="btnUpdateAngajat" fx:id="btnUpdateAngajat" layoutX="203.0" layoutY="227.0" mnemonicParsing="false" onAction="#updateAngajat" text="Update Angajat" />
+      <Button id="btnInsertAngajat" fx:id="btnInsertAngajat" layoutX="15.0" layoutY="227.0" mnemonicParsing="false" onAction="#insertAngajat" text="Insert Angajat" />
+   </children>
+</AnchorPane>

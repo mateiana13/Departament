@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="159.0" prefWidth="274.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="clase.UpdateAngajatController">
+   <children>
+      <TextField id="tfNumeAngajat" fx:id="tfNumeAngajat" layoutX="14.0" layoutY="14.0" prefHeight="25.0" prefWidth="249.0" promptText="numeAngajat" />
+      <TextField id="tfPrenumeAngajat" fx:id="tfPrenumeAngajt" layoutX="14.0" layoutY="39.0" prefHeight="25.0" prefWidth="249.0" promptText="prenumeAngajat" />
+      <TextField id="tfSalariuAngajat" fx:id="tfSalariuAngajat" layoutX="14.0" layoutY="64.0" prefHeight="25.0" prefWidth="249.0" promptText="salariuAngajat" />
+      <TextField id="tfFunctieAngajat" fx:id="tfFunctieAngajat" layoutX="14.0" layoutY="89.0" prefHeight="25.0" prefWidth="249.0" promptText="functieAngajat" />
+      <Button id="btnUpdateAngajat" fx:id="btnUpdateAngajat" layoutX="88.0" layoutY="125.0" mnemonicParsing="false" onAction="#updateAngajat" text="Update Angajat" />
+   </children>
+</AnchorPane>
